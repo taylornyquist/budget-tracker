@@ -6,7 +6,7 @@ const CACHE_NAME = APP_PREFIX + VERSION;
 const FILES_TO_CACHE = [
     "/",
     "./index.html",
-    "./css/style.css",
+    "./css/styles.css",
     "./js/idb.js",
     "./js/index.js",
     "./manifest.json",
@@ -22,8 +22,6 @@ const FILES_TO_CACHE = [
     "https://cdn.jsdelivr.net/npm/chart.js@2.8.0",
     "/api/transaction"
 ];
-
-
 
 // e.waitUntil tells the browser to wait until the work is complete before terminating the service worker
 self.addEventListener('install', function (e) {
