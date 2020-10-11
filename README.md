@@ -1,5 +1,5 @@
 # Budget Tracker
-* A RESTful API backend for a social network
+* A Progressive Web Application for managing a budget.
 
 ## Description
 * This is a Budget Tracker Progressive Web Application (PWA) that records and tracks positive or negative transactions and keeps a running total.  The front end is a simple single page application that keeps a running HTML table of the transactions and uses Chart.js to create a graph of the currently available funds.
